@@ -172,7 +172,7 @@ func (s *Stream) TryBind(firstFrame *Frame) bool {
 
     这里这个 closePeerIfNeeded ，然后如果是IsPush frame那么会closedSelf                                                                                                                                                                                                                                                                                                                                                                                                                                          
 
-    
+    如果发送完会关闭peer 和 channel
 
 ## 2 frame.go
 
