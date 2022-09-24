@@ -29,8 +29,4 @@
 
     简单的json解码编码
 
-
-
 ## 2 clienttransport.go
-
-
